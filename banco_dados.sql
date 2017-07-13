@@ -1,3 +1,7 @@
+CREATE DATABASE radar;
+
+USE radar;
+
 CREATE TABLE usuarios
 (
 	email varchar(80) NOT NULL,
