@@ -8,7 +8,7 @@
 	<h1>Login Radar</h1>
 	<form method="POST" action="verifica_login.php">
 		<p>E-mail <input type="text" name="email" /></p>
-		<p>Senha <input type="senha" name="senha" /></p>
+		<p>Senha <input type="password" name="senha" /></p>
 		<p><input type="submit" value="Entrar" name="Entrar" /></p>
 	</form>
 </body>
