@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="<?php include "html_lang.inc"; ?>">
 <head>
+<?php include "conecta_mysql.inc"; ?>
 <meta charset="<?php include "charset_utf8.inc"; ?>">
 <title><?php include "titulo_geral.inc"; ?></title>
 </head>
