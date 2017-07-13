@@ -1,1 +1,1 @@
-echo '<meta charset="UTF-8">';
+UTF-8

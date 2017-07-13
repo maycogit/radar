@@ -1,1 +1,1 @@
-echo 'Radar';
+Radar
