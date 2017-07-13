@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<?php include "charset_utf8.inc"; ?>
+<meta charset="<?php include "charset_utf8.inc"; ?>">
 <title><?php include "titulo_geral.inc"; ?></title>
 </head>
 <body>
