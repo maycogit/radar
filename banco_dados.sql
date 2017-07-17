@@ -10,5 +10,11 @@ CREATE TABLE usuarios
 	primary key(email)
 );
 
+/* tabela para reserva das salas */
+CREATE TABLE reserva_salas
+{
+	
+}
+
 /* usuários para testes */
 INSERT INTO usuarios VALUES ( 'a', 'b' );
