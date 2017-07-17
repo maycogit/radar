@@ -31,6 +31,7 @@ if(  !( empty($email_usuario) && empty($senha_usuario) )  ) {
 	}
 } else {
 	echo "Você não efetuou Login!";
+	echo '<p><a href="login.php">Efetuar Login</a></p>'; // usar aqui "pagina_login.inc"
 	exit;
 }
 mysql_close($conexao);
