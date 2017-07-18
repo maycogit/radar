@@ -10,6 +10,15 @@ CREATE TABLE usuarios
 	primary key(email)
 );
 
+/* tabela das salas */
+CREATE TABLE salas
+{
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	numero TINYINT UNSIGNED,
+	bloco CHAR(1),
+	PRIMARY KEY(id)
+}
+
 /* tabela para reserva das salas */
 CREATE TABLE reserva_salas
 {
